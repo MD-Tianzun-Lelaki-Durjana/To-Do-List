@@ -66,7 +66,7 @@ button {
   font-size: 16px;
   font-weight: 100;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 
 ul li {
@@ -127,13 +127,22 @@ ul li span:hover {
     padding: 20px 15px 50px;
   }
 
+  .row {
+    padding: 0; /* Mengatur padding elemen .row agar isinya lebih kecil */
+    margin: 10px auto;
+    margin-right: auto; /* Mengatur margin agar elemen .row tidak terlalu rapat */
+    font-size: 14px; /* Mengatur ukuran font pada elemen .row */
+  }
+
   input {
     font-size: 14px; /* Ukuran font lebih kecil pada ponsel */
+    margin-right: auto;
   }
 
   button {
-    padding: 12px 40px; /* Ukuran tombol lebih kecil pada ponsel */
+    padding: 16px 40px; /* Ukuran tombol lebih kecil pada ponsel */
     font-size: 14px; /* Ukuran font lebih kecil pada ponsel */
+    margin-right: auto;
   }
 }
 
